@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,600&family=Teko:wght@300;400;500;600;700&display=swap");
+* {
+  font-family: "Teko", sans-serif;
+}
+
+.home .para {
+  font-size: 50px;
+  color: #012970;
+  margin-top: 60px;
+  text-transform: capitalize;
+}
+.home .content {
+  text-transform: capitalize;
+  font-size: 28px;
+  color: grey;
+}
+
+.about .textual {
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #4154f1;
+}
+.about .paragraph {
+  font-size: 40px;
+  text-transform: capitalize;
+  color: #012970;
+}
+.about .contexual {
+  text-transform: capitalize;
+  font-size: 30px;
+  color: grey;
+}
+.about .click {
+  font-size: 26px;
+  text-transform: capitalize;
+  color: white;
+  background-color: #4154f1;
+  border: none;
+}
+
+.values {
+  text-align: center;
+}
+.values .textual {
+  font-size: 41px;
+  text-transform: uppercase;
+}
+.values .contents {
+  font-size: 5rem;
+  text-transform: capitalize;
+  color: #012970;
+}
+.values .title {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #012970;
+}
+.values .text {
+  font-size: 22px;
+  text-transform: capitalize;
+  color: grey;
+}
+
+.count .card-body {
+  margin-left: 43px;
+}
+.count .card {
+  max-width: 420px;
+}
+.count .avatar {
+  margin-left: 57px;
+  margin-top: 34px;
+  color: #4154f1;
+}
+.count .num {
+  font-size: 50px;
+  color: #012970;
+}
+.count .name {
+  font-size: 29px;
+  margin-top: -23px;
+  text-transform: capitalize;
+  color: grey;
+}
+
+.features .value {
+  text-align: center;
+  font-size: 49px;
+  text-transform: capitalize;
+  color: #4154f1;
+}
+.features .demo {
+  margin-top: -24px;
+  text-align: center;
+  font-size: 33px;
+}
+.features .feature {
+  margin-top: 61px;
+  margin-left: 9px;
+}
+.features .form {
+  margin-bottom: 41px;
+  font-size: 2rem;
+  color: #4154f1;
+}
+.features .check {
+  margin-top: 173px;
+}
+
+.ratione .ratio {
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+.ratione i {
+  font-size: 3rem;
+  margin-left: -237px;
+  color: #4154f1;
+}
+.ratione .design {
+  margin-left: -57px;
+  font-size: 35px;
+  text-transform: capitalize;
+  color: #012970;
+}
+.ratione .detail {
+  font-size: 2rem;
+  color: grey;
+}
+.ratione .data {
+  padding-left: 46px;
+}
+
+.services .fa {
+  font-size: 56px;
+  margin-top: 22px;
+  color: #4154f1;
+}
+.services .card-title {
+  text-transform: capitalize;
+  font-size: 44px;
+}
+.services .card-text {
+  text-transform: capitalize;
+  font-size: 23px;
+  color: grey;
+}
+.services .card-footer {
+  background: white;
+  border: 0px;
+}
+.services .card-footer a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 25px;
+  color: #4154f1;
+}
+
+.testimonials .avatar {
+  width: 169px;
+  height: 170px;
+  border-radius: 50%;
+}
+.testimonials .content {
+  font-size: 23px;
+  margin-top: 47px;
+  color: #4154f1;
+}
+.testimonials .list {
+  margin-top: 87px;
+  color: yellow;
+  font-size: 24px;
+}
+.testimonials .card-footer {
+  border: 0px;
+  background-color: white;
+  margin-top: 30px;
+}
+.testimonials .value {
+  margin-top: 12px;
+  font-size: 33px;
+}
+.testimonials .sub-title {
+  font-size: 22px;
+  color: grey;
+}
+
+.contact .click {
+  margin-top: 22px;
+  font-size: 30px;
+  background: #012970;
+  color: white;
+  border: 0px;
+  border-radius: 11%;
+}
+
+footer .content-write {
+  font-size: 29px;
+  text-transform: capitalize;
+  color: #4154f1;
+}
+footer h5 {
+  font-size: 32px;
+  text-transform: capitalize;
+  color: #4154f1;
+}
+footer .list-unstyled {
+  font-size: 21px;
+  text-transform: capitalize;
+}
+footer .list-unstyled .fas {
+  color: green;
+}
+footer .content {
+  font-size: 27px;
+  text-transform: capitalize;
+  color: grey;
+}
+footer .downinfo {
+  margin-left: -74px;
+  margin-top: 37px;
+  color: #4154f1;
+}
+
+@media screen and (max-width: 420px) {
+  .client .row {
+    gap: 3rem;
+  }
+  .home .parent {
+    margin-top: -129px;
+  }
+  .about img {
+    margin-top: 54px;
+  }
+  .values .row {
+    gap: 2rem;
+  }
+  .values .services .row {
+    gap: 2rem;
+  }
+  .values .testimonials .row {
+    gap: 2rem;
+  }
+  .values .ratione .design {
+    margin-left: -24px;
+  }
+  .values .ratione .design i {
+    margin-left: 10px;
+  }
+  .values .count .card-body {
+    margin-top: -40px;
+  }
+  .values .count .avatar {
+    margin-left: -46px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .count .card-body {
+    margin-left: -55px;
+    margin-top: 85px;
+  }
+  .count .avatar {
+    margin-left: 34px;
+  }
+  .home .parent {
+    margin-top: -122px;
+  }
+  footer .content-write {
+    margin-top: -30px;
+  }
+}/*# sourceMappingURL=main.css.map */

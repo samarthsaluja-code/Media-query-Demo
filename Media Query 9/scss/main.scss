@@ -1,0 +1,13 @@
+@import "./variable";
+@import "./mixin.scss";
+.fas{
+    color:$icon-color;
+}
+
+h2{
+    color:$main-color;
+}
+
+h3{
+    color: $main-color;
+}

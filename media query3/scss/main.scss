@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,600&family=Teko:wght@300;400;500;600;700&display=swap');
+$text-color:#012970;
+$primary-color:grey;
+$main-color:#4154f1;
+$font:'Teko', sans-serif;
+*{
+    font-family: $font;
+}
+.home{
+    .para
+    {
+      font-size: 50px;
+      color: $text-color;
+      margin-top: 60px;
+      text-transform: capitalize;
+    }
+    .content{
+        text-transform: capitalize;
+        font-size: 28px;
+        color: $primary-color;
+    }
+}
+
+.about
+{
+    .textual{
+        font-size: 35px;
+        text-transform: uppercase;
+        color: $main-color;
+    }
+    .paragraph{
+        font-size: 40px;
+    text-transform: capitalize;
+    color: $text-color;
+    }
+
+    .contexual{
+        text-transform: capitalize;
+    font-size: 30px;
+    color: $primary-color;
+    }
+
+    .click{
+        font-size: 26px;
+    text-transform: capitalize;
+    color:white;
+    background-color: $main-color;
+    border:none;
+    }
+}
+
+.values{
+    text-align: center;
+    .textual{
+        font-size: 41px;
+        text-transform: uppercase;
+    }
+    .contents{
+        font-size: 5rem;
+        text-transform: capitalize;
+        color: $text-color;
+    }
+
+    .title{
+        font-size: 2rem;
+        text-transform: capitalize;
+        color: $text-color;
+    }
+    .text{
+        font-size: 22px;
+        text-transform: capitalize;
+        color: $primary-color;
+    }
+}
+
+.count{
+    .card-body{
+        margin-left: 43px;
+    }
+    .card{
+        max-width: 420px;
+    }
+    .avatar{
+        margin-left: 57px;
+        margin-top: 34px;
+        color: $main-color;
+    }
+    .num{
+        font-size: 50px;
+        color: $text-color;
+    }
+    .name{
+        font-size: 29px;
+        margin-top: -23px;
+        text-transform: capitalize;
+        color: $primary-color;
+    }
+}
+
+.features{
+    .value{
+        text-align: center;
+        font-size: 49px;
+        text-transform: capitalize;
+        color: $main-color;
+    }
+    .demo{
+        margin-top: -24px;
+        text-align: center;
+        font-size: 33px;
+    }
+    .feature{
+        margin-top: 61px;
+        margin-left: 9px;
+    }
+    .form{
+        margin-bottom: 41px;
+        font-size: 2rem;
+        color: $main-color;
+    }
+    .check{
+        margin-top: 173px;
+    }
+}
+
+.ratione{
+    .ratio{
+        font-size: 4rem;
+        text-transform: capitalize;
+    }
+    i{
+        font-size: 3rem;
+        margin-left: -237px;
+        color: $main-color;
+    }
+    .design{
+        margin-left: -57px;
+    font-size: 35px;
+    text-transform: capitalize;
+    color: $text-color;
+    }
+    .detail{
+        font-size: 2rem;
+        color: $primary-color;
+    }
+    .data{
+        padding-left: 46px;
+    }
+}
+
+.services{
+    .fa{
+        font-size: 56px;
+        margin-top: 22px; 
+        color: $main-color;
+    }
+
+    .card-title{
+        text-transform: capitalize;
+        font-size: 44px;
+    }
+
+    .card-text{
+        text-transform: capitalize;
+        font-size: 23px;
+        color: $primary-color;
+    }
+
+    .card-footer
+    {
+        background: white;
+        border: 0px;
+        a{
+            text-decoration: none;
+            text-transform: capitalize;
+            font-size: 25px;
+            color: $main-color;
+        }
+    }
+}
+
+.testimonials{
+   .avatar{
+    width: 169px;
+    height: 170px;
+    border-radius: 50%;
+   }
+   .content{
+    font-size: 23px;
+    margin-top: 47px;
+    color: $main-color;
+   }
+   .list{
+    margin-top: 87px;
+    color: yellow;
+    font-size: 24px;
+   }
+   .card-footer
+   {
+    border: 0px;
+    background-color: white;
+    margin-top: 30px;
+   }
+   .value{
+    margin-top: 12px;
+    font-size: 33px;
+   }
+   .sub-title{
+    font-size: 22px;
+    color: $primary-color;
+   }
+}
+
+.contact
+{
+    .click{
+        margin-top: 22px;
+        font-size: 30px;
+        background: #012970;
+        color: white;
+        border: 0px;
+        border-radius: 11%;
+    }
+}
+
+footer{
+    .content-write{
+        font-size: 29px;
+    text-transform: capitalize;
+    color: $main-color;
+    }
+    h5{
+        font-size: 32px;
+        text-transform: capitalize;
+        color: $main-color;
+    }
+    .list-unstyled{
+        font-size: 21px;
+        text-transform: capitalize;
+        .fas{
+            color: green;
+        }
+    }
+    .content{
+        font-size: 27px;
+        text-transform: capitalize;
+        color: $primary-color;
+    }
+
+    .downinfo{
+        margin-left: -74px;
+    margin-top: 37px;
+    color: $main-color;
+    }
+}
+
+@media screen and (max-width:420px){
+.client{
+    .row
+    {
+        gap: 3rem;
+    }
+}
+.home{
+    .parent{
+        margin-top: -129px;
+    }
+}
+.about{
+    img{
+        margin-top: 54px;
+    }
+}
+.values{
+    .row{
+        gap: 2rem;
+    }
+
+.services{
+    .row{
+        gap: 2rem;
+    }
+}
+
+.testimonials
+{
+    .row
+    {
+        gap: 2rem;
+    }
+}
+
+.ratione 
+{
+.design{
+    margin-left: -24px;
+    i{
+        margin-left: 10px; 
+    }
+}
+}
+
+.count{
+    .card-body{
+        margin-top: -40px;
+    }
+
+    .avatar{
+        margin-left: -46px; 
+    }
+}
+}
+}
+
+@media screen and (max-width:820px) {
+    .count{
+        .card-body{
+            margin-left: -55px;
+            margin-top: 85px;
+        }
+        .avatar{
+            margin-left: 34px;
+        }
+    }
+
+    .home{
+        .parent{
+            margin-top: -122px;
+        }
+    }
+
+    footer{
+        .content-write
+        {
+            margin-top: -30px;
+        }
+    }
+}
